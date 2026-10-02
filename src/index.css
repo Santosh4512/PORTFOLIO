@@ -1,0 +1,68 @@
+:root {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #dfe8f6;
+  background: #060b12;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color-scheme: dark;
+
+  --bg: #060b12;
+  --bg-alt: #0b1118;
+  --surface: rgba(15, 23, 42, 0.8);
+  --surface-strong: #111a26;
+  --text: #dfe8f6;
+  --text-strong: #f3f7ff;
+  --muted: #aebed4;
+  --accent: #7ca3ff;
+  --accent-soft: rgba(124, 163, 255, 0.12);
+  --border: rgba(148, 163, 184, 0.2);
+  --shadow-soft: 0 18px 50px rgba(15, 23, 42, 0.45);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at top, rgba(124, 163, 255, 0.18), transparent 22%),
+    linear-gradient(180deg, #050a12 0%, #0b1118 100%);
+  color: var(--text);
+}
+
+body,
+button,
+a {
+  font: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin-top: 0;
+}
+
+a {
+  color: inherit;
+}
