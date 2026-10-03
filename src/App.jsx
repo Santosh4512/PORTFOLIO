@@ -197,7 +197,7 @@ function App() {
             {!profileImageError ? (
               <div className="profile-frame">
                 <img
-                  src="/profile.png"
+                  src="https://github.com/Santosh4512.png?size=800"
                   alt="NALLAMILLI SANTOSH BHASHKAR REDDY - Profile Photo"
                   className="profile-image"
                   onError={() => setProfileImageError(true)}
